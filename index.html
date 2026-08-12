@@ -1,0 +1,471 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sarfraz Punawala is a graphic designer creating thoughtful brand identities, packaging, and visual systems." />
+    <title>Sarfraz Punawala | Graphic Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <div class="preloader" id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close image preview">&times;</button>
+        <img id="lightboxImage" src="" alt="Full size image preview" />
+        <div class="lightbox-nav">
+          <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">❮</button>
+          <button class="lightbox-next" id="lightboxNext" aria-label="Next image">❯</button>
+        </div>
+      </div>
+    </div>
+
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <a href="#home" class="brand">
+          <span class="brand-mark">SP</span>
+          <span class="brand-name">Sarfraz Punawala</span>
+        </a>
+        <nav class="nav-links" id="navbar">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Services</a>
+          <a href="#projects" class="nav-link">Work</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="nav-meta">
+          <span class="availability">Available for select commissions</span>
+          <button class="mode-toggle" id="modeToggle" aria-label="Toggle color mode">☾</button>
+          <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">Menu</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section" id="home">
+        <div class="container hero-shell reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">01 / Introduction</p>
+            <h1>Graphic designer shaping identities that feel unmistakably human.</h1>
+            <p class="hero-text">
+              I create visual systems for brands, packaging, print, and editorial experiences with clarity, calm, and a strong sense of rhythm.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View selected work</a>
+              <a href="#contact" class="btn btn-secondary">Let’s connect</a>
+            </div>
+            <div class="typing-line">
+              <span id="typingText"></span>
+              <span class="cursor">|</span>
+            </div>
+            <div class="hero-meta">
+              <span>Based in India</span>
+              <span>Selected projects worldwide</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-frame">
+              <img src="images/profile-portrait.svg" alt="Portrait illustration of Sarfraz Punawala" />
+              <div class="hero-caption">Branding • Packaging • Print</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="container about-shell reveal">
+          <div class="section-number">01</div>
+          <div class="about-intro">
+            <p class="section-tag">About</p>
+            <h2>I build visual systems with a calm point of view and a sharp sense of rhythm.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>I’m a graphic designer with experience delivering thoughtful creative solutions across branding, packaging, editorial design, and print. My work is rooted in clarity, balance, and a strong sense of visual rhythm.</p>
+              <p>Whether it’s a logo system, a retail package, or a full campaign suite, I aim to create work that feels premium, memorable, and built around the audience’s needs.</p>
+            </div>
+            <div class="about-details">
+              <article class="detail-card">
+                <h3>Approach</h3>
+                <p>Every visual decision should feel intentional, from the typography to the final print finish.</p>
+              </article>
+              <article class="detail-card">
+                <h3>Focus</h3>
+                <p>Brand identity, packaging, print collateral, and visual storytelling.</p>
+              </article>
+              <article class="detail-card">
+                <h3>Tools</h3>
+                <div class="pill-list">
+                  <span>CorelDRAW</span>
+                  <span>Illustrator</span>
+                  <span>Photoshop</span>
+                  <span>Figma</span>
+                  <span>InDesign</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services-section" id="skills">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-tag">02 / Services</p>
+            <h2>Selected disciplines.</h2>
+          </div>
+          <div class="service-list">
+            <article class="service-item reveal">
+              <span class="service-number">01</span>
+              <div>
+                <h3>Brand identity</h3>
+                <p>Systems for logos, environments, messaging, and tonal direction.</p>
+              </div>
+            </article>
+            <article class="service-item reveal">
+              <span class="service-number">02</span>
+              <div>
+                <h3>Packaging design</h3>
+                <p>Tactile, retail-ready solutions that balance cultural context and market presence.</p>
+              </div>
+            </article>
+            <article class="service-item reveal">
+              <span class="service-number">03</span>
+              <div>
+                <h3>Print design</h3>
+                <p>Editorial layouts, brochures, booklets, and premium collateral with a refined finish.</p>
+              </div>
+            </article>
+            <article class="service-item reveal">
+              <span class="service-number">04</span>
+              <div>
+                <h3>Social & digital</h3>
+                <p>Campaign visuals and digital assets with a polished editorial feel.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="container section-heading reveal">
+          <p class="section-tag">03 / Selected work</p>
+          <h2>Projects shaped with intention.</h2>
+        </div>
+
+        <div class="container project-controls reveal">
+          <div class="search-box">
+            <input type="text" id="projectSearch" placeholder="Search projects" />
+          </div>
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+            <button class="filter-btn" data-filter="packaging">Packaging</button>
+            <button class="filter-btn" data-filter="print">Print</button>
+          </div>
+        </div>
+
+        <div class="container projects-grid reveal" id="projectsGrid">
+          <article class="project-card wide" data-category="branding" data-tags="branding education corporate">
+            <div class="project-image">
+              <img src="images/theem/logo.png" alt="Theem Project" onclick="openLightbox(this)" />
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-chip">Branding</span>
+                <span class="project-year">2023</span>
+              </div>
+              <h3>Theem</h3>
+              <p class="project-subtitle">Group of Institutions</p>
+              <p>A comprehensive design system for an educational brand balancing credibility with youthful energy.</p>
+              <div class="project-actions">
+                <button class="case-study-toggle" onclick="toggleCaseStudy(this)">View case study</button>
+                <button class="gallery-toggle" onclick="toggleGallery(this)">View gallery</button>
+              </div>
+              <div class="case-study">
+                <h4>Project Overview</h4>
+                <p>Theem Group of Institutions required a cohesive brand identity that would resonate with both students and parents. The challenge was to create designs that felt modern yet approachable for educational settings.</p>
+                <h4>Challenges & Solutions</h4>
+                <ul>
+                  <li><strong>Challenge:</strong> Unifying multiple campuses under one brand</li>
+                  <li><strong>Solution:</strong> Created versatile brand guidelines adaptable across all properties</li>
+                  <li><strong>Challenge:</strong> Balancing corporate professionalism with youth appeal</li>
+                  <li><strong>Solution:</strong> Used vibrant colors with elegant typography</li>
+                </ul>
+                <h4>Results</h4>
+                <p>✓ 40% increase in brand recognition | ✓ Enhanced campus engagement | ✓ Professional event presence</p>
+              </div>
+              <div class="project-gallery">
+                <img src="images/theem/Theem 3x4 Lamp post Banner 4.jpg" alt="Theem Banner" onclick="openLightbox(this)" />
+                <img src="images/theem/THEEM COLLEGE OF ENGINEERING Jashn-E-Theem Poster 27.02.2023.jpg" alt="Theem Poster" onclick="openLightbox(this)" />
+                <img src="images/theem/THEEM COLLEGE OF ENGINEERING Magazine Cover Design 2.jpg" alt="Theem Magazine" onclick="openLightbox(this)" />
+                <img src="images/theem/THEEM GLOBAL School ACalender Cover Page DEsign 17.04.2023.jpg" alt="Theem Calendar" onclick="openLightbox(this)" />
+                <img src="images/theem/Theem-Prospectus-Cover-Page-Design-MCKP-1.jpg" alt="Theem Prospectus" onclick="openLightbox(this)" />
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="packaging" data-tags="packaging product label design">
+            <div class="project-image">
+              <img src="images/v_jai/logo.png" alt="V.jay Project" onclick="openLightbox(this)" />
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-chip">Packaging</span>
+                <span class="project-year">2022</span>
+              </div>
+              <h3>V.jay</h3>
+              <p class="project-subtitle">Agarbatti Products</p>
+              <p>Premium packaging systems developed for a contemporary retail market while preserving cultural warmth.</p>
+              <div class="project-actions">
+                <button class="case-study-toggle" onclick="toggleCaseStudy(this)">View case study</button>
+                <button class="gallery-toggle" onclick="toggleGallery(this)">View gallery</button>
+              </div>
+              <div class="case-study">
+                <h4>Project Overview</h4>
+                <p>V.jay needed premium packaging designs that would stand out on retail shelves while maintaining brand consistency across their diverse product line.</p>
+                <h4>Design Approach</h4>
+                <p>Developed a flexible packaging system that accommodates multiple product variants while maintaining visual cohesion. Used traditional motifs with modern design sensibilities.</p>
+                <h4>Results</h4>
+                <p>✓ 12 product variants designed | ✓ Retail shelf prominence | ✓ Premium market positioning</p>
+              </div>
+              <div class="project-gallery">
+                <img src="images/v_jai/2021-Box-Ad.jpg" alt="V.jay 2021 Box" onclick="openLightbox(this)" />
+                <img src="images/v_jai/21st-century,-50-50-&-AAA-Box-Ad.jpg" alt="V.jay Century Box" onclick="openLightbox(this)" />
+                <img src="images/v_jai/AA-Box-Ad.jpg" alt="V.jay AA Box" onclick="openLightbox(this)" />
+                <img src="images/v_jai/Agarbatti-Hexagon-Long-Box-1.jpg" alt="V.jay Hexagon Box" onclick="openLightbox(this)" />
+                <img src="images/v_jai/Ananta-Box-Ad.jpg" alt="V.jay Ananta Box" onclick="openLightbox(this)" />
+                <img src="images/v_jai/DHoop-Sticks-Hexagon-Gulmohar-&-White-Gold.jpg" alt="V.jay DHoop Sticks" onclick="openLightbox(this)" />
+                <img src="images/v_jai/DHoop-Sticks-Hexagon-Sandal-King-&-Vedant.jpg" alt="V.jay Sandal King" onclick="openLightbox(this)" />
+                <img src="images/v_jai/Trilok-Box-Ad.jpg" alt="V.jay Trilok Box" onclick="openLightbox(this)" />
+                <img src="images/v_jai/Trimurti-Box-Ad.jpg" alt="V.jay Trimurti Box" onclick="openLightbox(this)" />
+                <img src="images/v_jai/Website-AD-Design-1-A.jpg" alt="V.jay Website AD 1" onclick="openLightbox(this)" />
+                <img src="images/v_jai/Website-AD-Design-3.jpg" alt="V.jay Website AD 3" onclick="openLightbox(this)" />
+                <img src="images/v_jai/Yoga-Box-Ad.jpg" alt="V.jay Yoga Box" onclick="openLightbox(this)" />
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card tall" data-category="packaging" data-tags="packaging bakery sweet design">
+            <div class="project-image">
+              <img src="images/al_ajwa/logo.png" alt="AL Ajwa Project" onclick="openLightbox(this)" />
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-chip">Packaging</span>
+                <span class="project-year">2021</span>
+              </div>
+              <h3>AL Ajwa</h3>
+              <p class="project-subtitle">Sweet Farsan & Bakery</p>
+              <p>Traditional sweets translated into a contemporary, premium packaging language for modern shelves.</p>
+              <div class="project-actions">
+                <button class="case-study-toggle" onclick="toggleCaseStudy(this)">View case study</button>
+                <button class="gallery-toggle" onclick="toggleGallery(this)">View gallery</button>
+              </div>
+              <div class="case-study">
+                <h4>Project Overview</h4>
+                <p>AL Ajwa needed modern packaging for traditional sweets that would appeal to contemporary consumers while honoring heritage.</p>
+                <h4>Creative Direction</h4>
+                <p>Blended traditional Indian design elements with minimalist modern aesthetics. Used warm colors and elegant typography to convey premium quality.</p>
+                <h4>Results</h4>
+                <p>✓ 8 product lines designed | ✓ Premium market appeal | ✓ Strong brand identity</p>
+              </div>
+              <div class="project-gallery">
+                <img src="images/al_ajwa/Al-Ajwa Cake Box Design 1.jpg" alt="AL Ajwa Cake Box" onclick="openLightbox(this)" />
+                <img src="images/al_ajwa/Al-Ajwa Cookies Sleevs Design NEW FINAL 1.jpg" alt="AL Ajwa Cookies" onclick="openLightbox(this)" />
+                <img src="images/al_ajwa/Al-Ajwa Ghevar Box Design 3.jpg" alt="AL Ajwa Ghevar Box" onclick="openLightbox(this)" />
+                <img src="images/al_ajwa/Al-Ajwa-Cookies-Pouch-Design-Opt-1-Mockup.jpg" alt="AL Ajwa Cookies Pouch Mockup" onclick="openLightbox(this)" />
+                <img src="images/al_ajwa/Al-Ajwa-Rectangle-Standing-Plastic-Pouch-Mockup-FINAL.jpg" alt="AL Ajwa Plastic Pouch Mockup" onclick="openLightbox(this)" />
+                <img src="images/al_ajwa/Al-Ajwa-Zipper-Pouch-Cross-in-Air-Mockup-Opt-1.jpg" alt="AL Ajwa Zipper Pouch Mockup" onclick="openLightbox(this)" />
+                <img src="images/al_ajwa/Cake-Rusk-Design-Opt-12-B-Mockup-Halfside.jpg" alt="AL Ajwa Cake Rusk B" onclick="openLightbox(this)" />
+                <img src="images/al_ajwa/Cake-Rusk-Design-Opt-12-D-Mockup-Halfside.jpg" alt="AL Ajwa Cake Rusk D" onclick="openLightbox(this)" />
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="print" data-tags="print design branding">
+            <div class="project-image">
+              <img src="images/misora/logo.svg" alt="Misora Project" onclick="openLightbox(this)" />
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-chip">Print</span>
+                <span class="project-year">2020</span>
+              </div>
+              <h3>Misora</h3>
+              <p class="project-subtitle">Premium Print Solutions</p>
+              <p>Elegant print systems for luxury-facing brands, designed to feel polished and quietly premium.</p>
+              <div class="project-actions">
+                <button class="case-study-toggle" onclick="toggleCaseStudy(this)">View case study</button>
+                <button class="gallery-toggle" onclick="toggleGallery(this)">View gallery</button>
+              </div>
+              <div class="case-study">
+                <h4>Project Overview</h4>
+                <p>Misora required sophisticated print designs that convey luxury and professionalism.</p>
+                <h4>Results</h4>
+                <p>✓ Premium brand positioning | ✓ Elegant visual identity</p>
+              </div>
+              <div class="project-gallery"></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="container no-results hidden" id="noResults">
+          <p class="no-results-message">No projects found matching your search.</p>
+        </div>
+      </section>
+
+      <section class="section testimonial-section" id="testimonials">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-tag">04 / Notes</p>
+            <h2>Selected client reflections.</h2>
+          </div>
+          <div class="testimonial-quote reveal">
+            <p>“Sarfraz transformed our brand identity completely. The work feels strategic, polished, and deeply considered.”</p>
+            <div class="testimonial-author">
+              <span class="author-pill">Rahul Sharma</span>
+              <span>CEO, Theem Group</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section newsletter-section">
+        <div class="container newsletter-shell reveal">
+          <div class="newsletter-copy">
+            <p class="section-tag">Stay close</p>
+            <h2>Thoughtful updates, shared occasionally.</h2>
+            <p>New case studies, design notes, and studio updates are shared from time to time.</p>
+          </div>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="your@email.com" required aria-label="Email address" />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+            <p class="newsletter-status" id="newsletterStatus"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section" id="blog">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-tag">05 / Journal</p>
+            <h2>Notes on making visual systems feel durable.</h2>
+          </div>
+          <div class="blog-list reveal">
+            <article class="blog-item">
+              <span class="blog-date">Mar 15, 2024</span>
+              <div>
+                <h3>The psychology of color in packaging</h3>
+                <p>Understanding how color influences perception can shape the entire emotional response to a brand.</p>
+              </div>
+              <a href="#" class="text-link">Read article →</a>
+            </article>
+            <article class="blog-item">
+              <span class="blog-date">Mar 08, 2024</span>
+              <div>
+                <h3>Building a brand identity that lasts</h3>
+                <p>A thoughtful brand system is more than a logo; it is a framework for consistency and trust.</p>
+              </div>
+              <a href="#" class="text-link">Read article →</a>
+            </article>
+            <article class="blog-item">
+              <span class="blog-date">Feb 28, 2024</span>
+              <div>
+                <h3>Typography that carries atmosphere</h3>
+                <p>Good type choices not only communicate but also steer the tone of the whole experience.</p>
+              </div>
+              <a href="#" class="text-link">Read article →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-tag">06 / Experience</p>
+            <h2>Selected time spent shaping visual language.</h2>
+          </div>
+          <div class="timeline reveal">
+            <article class="timeline-item">
+              <div class="timeline-year">2016 — Present</div>
+              <div>
+                <h3>Independent Graphic Designer</h3>
+                <p>Working with clients across branding, packaging, print media, and campaign visuals with a focus on quality and thoughtfulness.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-year">2015 — 2016</div>
+              <div>
+                <h3>Harmony Media</h3>
+                <p>Created motion, title, and compositing visuals for broadcast and digital media platforms.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-year">2014 — 2015</div>
+              <div>
+                <h3>Plastopack</h3>
+                <p>Focused on packaging and print collateral with a strong emphasis on visual structure and production-ready design.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-shell reveal">
+          <div class="contact-copy">
+            <p class="section-tag">07 / Contact</p>
+            <h2>Let’s make something memorable.</h2>
+            <p>I’m available for collaborative branding, packaging, and visual design work that needs both elegance and purpose.</p>
+            <div class="contact-links">
+              <a href="mailto:husainvfx@gmail.com">husainvfx@gmail.com</a>
+              <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="#" target="_blank" rel="noreferrer">Behance</a>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-status" id="formStatus"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>Sarfraz Punawala</strong>
+          <span>Graphic Designer</span>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:husainvfx@gmail.com">Email</a>
+          <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="#" target="_blank" rel="noreferrer">Behance</a>
+        </div>
+        <div>© <span id="year"></span></div>
+      </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

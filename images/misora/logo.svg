@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Misora logo">
+  <rect width="320" height="220" rx="24" fill="#f7efe6"/>
+  <rect x="34" y="34" width="252" height="152" rx="18" fill="#fffdf9" stroke="#d7b08b" stroke-width="2"/>
+  <path d="M92 156c18-30 34-55 52-83 10 16 22 31 31 48 13 22 24 44 37 66" fill="none" stroke="#a76536" stroke-width="9" stroke-linecap="round"/>
+  <path d="M110 156h90" stroke="#171311" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="116" cy="112" r="8" fill="#171311"/>
+  <circle cx="176" cy="112" r="8" fill="#171311"/>
+</svg>
